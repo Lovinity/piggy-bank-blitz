@@ -63,6 +63,6 @@ If you do not have any power-ups remaining at the end of the game, the coins rem
 
 Throughout the game, a few "X" coins will also fall. These are Hurrah Multiplier coins, and they are good (so try and catch them!). Every time you catch a Hurrah Multiplier coin, the Last Hurrah multiplier will increase by 1X.
 
-After the "Finishing Up" stage when the game ends, the Last Hurrah begins where 12 coins of unknown values appear on the screen in random spots. Then, you have 7 seconds to move your piggy bank to wherever you want in hopes of collecting the most money. Once time runs out, your piggy bank freezes, the values of the mystery coins are revealed, and they fall down. Any coins that strike your piggy bank are collected, and their values are multiplied by the Hurrah Multiplier.
+After the "Finishing Up" stage when the game ends, the Last Hurrah begins where 15 coins appear on the screen in random spots. Then, the coins fall down. Any coins that fall into your piggy bank are collected, and their values are multiplied by the Hurrah Multiplier. The piggy bank cannot be moved during the Last Hurrah.
 
 The game ends completely after the Last Hurrah. Your game statistics and final score will then appear on the screen.

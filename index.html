@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
 
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Piggy Bank Blitz</title>
+  <link rel="stylesheet" href="assets/css/material.min.css" type="text/css">
+
+  <script src="assets/js/material.min.js"></script>
+  <script src="assets/js/soundjs.min.js"></script>
+
+  <style>
+
+  </style>
+</head>
+
+<body class="bg-dark-2" style="position: relative;">
+
+  <div id="time-left" class="bg-secondary-dark"
+    style="height: 100vh; width: 72vw; position: absolute; top: 0; left: 14vw;">
+  </div>
+
+  <div id="playing-field" class="bg-dark-4" style="height: 100vh; width: 70vw; position: absolute; top: 0; left: 15vw;">
+  </div>
+
+  <div id="graphics" style="height: 100vh; width: 70vw; position: absolute; top: 0; left: 15vw;">
+  </div>
+
+  <div id="coins" style="height: 100vh; width: 70vw; position: absolute; top: 0; left: 15vw;">
+  </div>
+
+  <div class="shadowed" style="position: absolute; height: 100vh; top: 95vh; left: 15vw; width: 70vw;">
+    <img src="assets/images/piggy.png" id="main-piggy"
+      style="width: 2.5vw; position: absolute; left: 50%; filter: drop-shadow(3px 3px 3px #222);">
+  </div>
+
+  <div id="piggy-computer" class="shadowed"
+    style="position: absolute; height: 100vh; top: 90vh; left: 15vw; width: 70vw;">
+    <img src="assets/images/devil-piggy.png"
+      style="width: 2.5vw; position: absolute; left: 32%; filter: drop-shadow(3px 3px 3px #222);">
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+
 </html>
