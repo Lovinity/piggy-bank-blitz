@@ -9,7 +9,7 @@
   "author": "Patrick Schmalstig",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^5.0.7",
+    "electron": "^11.5.0",
     "electron-builder": "^21.1.1",
     "eslint": "^6.0.1",
     "eslint-config-standard": "^13.0.1",
